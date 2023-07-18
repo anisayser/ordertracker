@@ -1,7 +1,8 @@
-"use client"
+"use client";
 import Image from "next/image";
 import orderTrackerImg from "../assets/images/orderTrackerImg3.png";
 import { useEffect } from "react";
+import { Navigation } from "@/components/Navigation";
 
 export default function Home() {
   useEffect(() => {
@@ -23,9 +24,6 @@ export default function Home() {
     };
   }, []);
 
-
-
-
   return (
     <main className="">
       <>
@@ -33,6 +31,7 @@ export default function Home() {
           {/* <img src={bg1} className='w-full h-full' alt="" /> */}
 
           {/* <Navigation /> */}
+          <Navigation />
           <div className="container px-5 lg:px-0  mx-auto pt-10">
             <div className="grid grid-cols-2 gap-4 lg:gap-24 lg:h-[90vh]">
               <div className="col-span-2 lg:col-span-1">
