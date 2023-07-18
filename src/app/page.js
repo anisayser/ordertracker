@@ -25,9 +25,9 @@ export default function Home() {
 
 
 
-  
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="">
       <>
         <div className="w-full h-full lg:h-screen">
           {/* <img src={bg1} className='w-full h-full' alt="" /> */}
@@ -36,7 +36,7 @@ export default function Home() {
           <div className="container px-5 lg:px-0  mx-auto pt-10">
             <div className="grid grid-cols-2 gap-4 lg:gap-24 lg:h-[90vh]">
               <div className="col-span-2 lg:col-span-1">
-                <h2 className="text-6xl font-bold leading-snug text-gray-900">
+                <h2 className="text-2xl md:text-6xl font-bold leading-snug text-gray-900">
                   Package tracking made easy, you just need a tracking number!
                 </h2>
                 <div className="pt-10" id="ordertracker-widget"></div>
